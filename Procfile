@@ -1,4 +1,4 @@
-web: gunicorn webalive.wsgi:application --log-file - --log-level debug
+web: gunicorn agendaclinica.wsgi:application --log-file - --log-level debug
 
 python manage.py collectstatic --noinput
 
