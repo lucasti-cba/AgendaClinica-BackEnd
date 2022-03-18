@@ -1,4 +1,4 @@
-Django>=4
+Django>=3.2
 PyJWT>=0.3,<4
 psycopg2-binary>=2.8
 djangorestframework_simplejwt
