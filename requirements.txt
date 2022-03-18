@@ -3,7 +3,7 @@ PyJWT>=0.3,<4
 psycopg2-binary>=2.8
 djangorestframework_simplejwt
 djoser==2.0.5
-Pillow==8.3.2
+Pillow==9.0.1
 djangorestframework==3.12.3
 python-jose==3.2
 django-heroku==0.3.1
