@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-!$5vz5g8u7-14o2s@!*zncrj^4ebb%l(53r86@3ns*md!him&$
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['alive-agenda-clinica.herokuapp.com']
 
 
 # Application definition
