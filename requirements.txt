@@ -1,6 +1,7 @@
 Django>=3.2
 PyJWT>=0.3,<4
-psycopg2-binary>=2.8
+psycopg2-binary>=2
+pytz
 djangorestframework_simplejwt
 djoser==2.0.5
 Pillow==9.0.1
