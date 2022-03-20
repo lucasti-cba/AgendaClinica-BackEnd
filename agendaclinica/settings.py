@@ -94,9 +94,13 @@ WSGI_APPLICATION = 'agendaclinica.wsgi.application'
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+    'default': {    
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'd4jjmemv34civj',
+        'USER': 'oajwmzvcupwkuf',
+        'PASSWORD': 'ec3f8dca36f04c0e39086c336334d1ebfaf063ae9e1ea40ad368623fa1a48dce',
+        'HOST': 'ec2-52-70-186-184.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
