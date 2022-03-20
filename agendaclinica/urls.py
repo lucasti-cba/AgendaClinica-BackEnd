@@ -22,8 +22,10 @@ from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
 from django.views.generic.base import RedirectView
 from rest_framework.urlpatterns import format_suffix_patterns
 
+
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('auth/', include('authApi.urls')),
     path('api/v1/token/', TokenObtainPairView.as_view()),
     path('api/v1/token/refresh/', TokenRefreshView.as_view()),
 ]
