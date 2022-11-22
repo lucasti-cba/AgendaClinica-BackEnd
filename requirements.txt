@@ -4,7 +4,7 @@ psycopg2-binary>=2
 pytz
 djangorestframework_simplejwt
 djoser==2.0.5
-Pillow==9.0.1
+Pillow==9.3.0
 djangorestframework==3.12.3
 python-jose==3.2
 django-heroku==0.3.1
